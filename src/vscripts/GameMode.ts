@@ -1,5 +1,12 @@
 import { reloadable } from "./lib/tstl-utils";
 
+if (IsInToolsMode()) {
+    // Components made in LUA
+    require("components/demo/demo_events");
+    require("components/demo/demo_no_damage");
+    require("components/demo/demo_core");
+}
+
 const heroSelectionTime = 20;
 
 declare global {
