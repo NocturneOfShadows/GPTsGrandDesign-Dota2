@@ -16,7 +16,7 @@ This custom game aims to provide a fresh perspective on Dota 2's iconic heroes. 
 3. **Complexity in Moderation**: Abilities should offer depth without being overly complex.
 4. **Consistent Power Curves**: Heroes should progress in power throughout the game.
 5. **Unique Identity**: Each hero should have a distinct playstyle or mechanic, not derivative of their existing abilities or any other hero's abilities in Dota 2.
-6. **Balanced Risk and Reward**: Powerful abilities should have risks or costs.
+6. **Balanced Risk and Reward**: Powerful abilities should have risks or costs, which can be in the form of mana or health.
 7. **Cohesive Theme**: Abilities and lore should be thematically consistent.
 
 Given this philosophy, the goal is to craft heroes that are strategically deep and exhilarating. The redesigns aim for a fun meter rating of 10/10, ensuring engagement, satisfaction, and replayability.
@@ -41,9 +41,9 @@ Given this philosophy, the goal is to craft heroes that are strategically deep a
 2. **Abilities**:
    - Distinct name and engaging description.
    - Specify if Passive, Active, or Toggle.
-   - Essential details like damage type, cast range, etc.
+   - Essential details like damage type, cast range, cast point, and cost (can be mana or health).
    - If values change across levels, provide the variable followed by values.
-   - Cooldown, Mana Cost, and other mechanics.
+   - Cooldown and other mechanics.
    - *Note**: Abilities should be entirely new concepts, not derivatives or reminiscent of [HERO NAME]'s original abilities or any existing Dota 2 abilities.
 
 3. **Aghanim's Shard and Scepter Upgrades**:
@@ -51,7 +51,7 @@ Given this philosophy, the goal is to craft heroes that are strategically deep a
 
 4. **Talent Tree**:
    - Talents for Levels 10, 15, 20, and 25.
-   - Two options for each level.
+   - Two options for each level, with at least 80% of the talents being unique upgrades to the hero's abilities. Talents should not upgrade effects or abilities granted by Aghanim's Scepter or Shard.
 
 Ensure abilities, talents, and upgrades are unique and not reminiscent of existing Dota 2 abilities or the original kit. They should be balanced and fit within Dota 2's patterns, complementing the overall balance and fun factor of the entire hero pool and reflecting the hero's lore and thematic essence.
 ```
