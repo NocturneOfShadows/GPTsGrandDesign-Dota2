@@ -21,13 +21,15 @@ This custom game aims to provide a fresh perspective on Dota 2's iconic heroes. 
 
 Given this philosophy, the goal is to craft heroes that are strategically deep and exhilarating. The redesigns aim for a fun meter rating of 10/10, ensuring engagement, satisfaction, and replayability.
 
-## Lore of [HERO NAME]: 
+## Hero: [HERO NAME]
+
+### Lore: 
 [Insert the hero's lore here for context and thematic direction.]
 
-## Special Instructions:
+### Special Instructions:
 [Insert any specific requirements or deviations from the standard format, like additional abilities, unique mechanics, or specific thematic elements. Use "None" as an input when there are no special instructions, for clarity and to ensure consistent results]
 
-## Redesign Details:
+### Redesign Details:
 
 1. **Primary Attribute and Base Stats**:
    - Base Strength, Agility, and Intelligence.
