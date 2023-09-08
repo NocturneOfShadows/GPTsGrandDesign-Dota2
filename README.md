@@ -44,6 +44,7 @@ Given this philosophy, the goal is to craft heroes that are strategically deep a
    - Essential details like damage type, cast range, etc.
    - If values change across levels, provide the variable followed by values.
    - Cooldown, Mana Cost, and other mechanics.
+   - *Note**: Abilities should be entirely new concepts, not derivatives or reminiscent of [HERO NAME]'s original abilities or any existing Dota 2 abilities.
 
 3. **Aghanim's Shard and Scepter Upgrades**:
    - Effects of the Shard and Scepter. Sometimes, the Scepter might grant a completely new ability or enhance an existing one.
