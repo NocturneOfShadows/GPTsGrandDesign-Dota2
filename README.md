@@ -40,11 +40,13 @@ Given this philosophy, the goal is to craft heroes that are strategically deep a
 
 2. **Abilities**:
    - Distinct name and engaging description.
-   - Specify if Passive, Active, or Toggle.
-   - Essential details like damage type, cast range, cast point, and cost (can be mana or health).
+   - Specify if Passive, Active, Toggle, or Channeled.
+   - Essential details like damage type, cast range, **cast point (always mention, even if it's 0)**, and cost (can be mana or health).
+   - **For channeled abilities, specify the channel duration.**
    - If values change across levels, provide the variable followed by values.
    - Cooldown and other mechanics.
    - *Note**: Abilities should be entirely new concepts, not derivatives or reminiscent of [HERO NAME]'s original abilities or any existing Dota 2 abilities.
+
 
 3. **Aghanim's Shard and Scepter Upgrades**:
    - Effects of the Shard and Scepter. Sometimes, the Scepter might grant a completely new ability or enhance an existing one.
