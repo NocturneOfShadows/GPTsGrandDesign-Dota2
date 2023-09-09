@@ -1,0 +1,134 @@
+"DOTAAbilities"
+{
+    "axe_lone_warriors_charge"
+    {
+        // General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/heroes/axe/axe_lone_warriors_charge.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"AbilityTextureName"			"axe_berserkers_call"
+
+        "AbilityCooldown"		"18"
+        "AbilityManaCost"		"100"
+
+        "AbilityCastRange"		"600 700 800 900"
+        "AbilityCastPoint"		"0.3"
+        "AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+        "AbilityValues" {
+            "damage"    "100 150 200 250"
+            "taunt_duration"    "1.5 1.75 2 2.25"
+            "charge_speed"  "650 700 750 800"
+        }
+    }
+
+    "axe_decapitating_strike"
+    {
+        // General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/heroes/axe/axe_decapitating_strike.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"AbilityTextureName"			"axe_culling_blade"
+
+        "AbilityCooldown"		        "12 10 8 6"
+        "AbilityManaCost"		        "60 70 80 90"
+
+        // "AbilityCastRange"		        "600 700 800 900"
+        "AbilityCastPoint"		        "0.3"
+
+        "HasShardUpgrade"				"1"
+
+        "AbilityValues" {
+            "health_perc_as_damage"    "5 7 9 11"
+            "damage_perc_as_heal"
+			{
+				"value"							"50"
+				"RequiresShard"					"1"
+			}
+        }
+    }
+
+    "axe_red_mist_armor"
+    {
+        // General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/heroes/axe/axe_red_mist_armor.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"AbilityTextureName"			"centaur_return"
+
+        "AbilityValues" {
+            "return_damage_perc"    "10 15 20 25"
+            "bonus_armor_per_hero"    "2 3 4 5"
+            "effect_radius"             "400"
+        }
+    }
+
+    "axe_one_man_army"
+    {
+        // General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/heroes/axe/axe_one_man_army.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+
+		"AbilityTextureName"			"axe_counter_helix"
+
+        "AbilityCastPoint"		        "0.3"
+
+        "AbilityCooldown"		        "90 75 60"
+        "AbilityManaCost"		        "150 200 250"
+
+        "AbilityValues" {
+            "bonus_damage"    "50 75 100"
+            "base_duration"    "3"
+            "duration_bonus_per_hero"             "0.5 0.75 1"
+            "search_radius"         "1200"
+        }
+    }
+
+    "axe_generals_command"
+    {
+        // General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/heroes/axe/axe_generals_command.lua"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "MaxLevel"                      "1"
+
+		"AbilityTextureName"			"axe_battle_hunger"
+
+        "AbilityCastPoint"		        "0.3"
+
+        "AbilityCooldown"		        "60"
+        "AbilityManaCost"		        "125"
+		"IsGrantedByScepter"			"1"
+
+        "AbilityValues" {
+            "bonus_damage_perc"    "25"
+            "bonus_armor_perc"    "25"
+            "duration"    "5"
+            "effect_radius" "1200"
+        }
+    }
+}

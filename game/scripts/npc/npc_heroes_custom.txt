@@ -1,0 +1,16 @@
+"DOTAHeroes"
+{
+    //=================================================================================================================
+    // HERO: Axe
+    //=================================================================================================================
+    "npc_dota_hero_axe"
+    {
+        "Ability1"                  "axe_lone_warriors_charge"
+        "Ability2"                  "axe_decapitating_strike"
+        "Ability3"                  "axe_red_mist_armor"
+        "Ability4"                  "axe_generals_command"
+        "Ability5"                  "generic_hidden"
+        "Ability6"                  "axe_one_man_army"
+        // "Ability10"                 "special_bonus_unique_abaddon_XX"
+    }
+}

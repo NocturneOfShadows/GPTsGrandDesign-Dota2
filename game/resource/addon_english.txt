@@ -115,5 +115,52 @@
 		"SpeedIncrement_Tooltip"					"Increase Speed"
 		"SpeedDecrement_Tooltip"					"Decrease Speed"
 		"SpeedReset_Tooltip"						"Reset to Normal Speed"
+
+		// Heroes
+		// Axe
+		//------------------------
+
+		"DOTA_Tooltip_ability_axe_lone_warriors_charge"		"Lone Warrior's Charge"
+		"DOTA_Tooltip_ability_axe_lone_warriors_charge_description"		"Axe charges towards an enemy, dealing damage and taunting them to attack him for a short duration."
+		"DOTA_Tooltip_ability_axe_lone_warriors_charge_damage"		"DAMAGE:"
+		"DOTA_Tooltip_ability_axe_lone_warriors_charge_taunt_duration"		"TAUNT DURATION:"
+		"DOTA_Tooltip_ability_axe_lone_warriors_charge_AbilityCastRange"		"CAST RANGE:"
+		"DOTA_Tooltip_modifier_axe_lone_warriors_charge_taunt"	"Taunt"
+		"DOTA_Tooltip_modifier_axe_lone_warriors_charge_taunt_description"	"This unit is forced to attack Axe"
+
+		"DOTA_Tooltip_ability_axe_decapitating_strike"		"Decapitating Strike"
+		"DOTA_Tooltip_ability_axe_decapitating_strike_description"		"Axe delivers a powerful blow, dealing bonus damage based on his current health."
+		"DOTA_Tooltip_ability_axe_decapitating_strike_health_perc_as_damage"		"%CURRENT HEALTH AS DAMAGE:"
+		"DOTA_Tooltip_ability_axe_decapitating_strike_shard_description"		"Causes Decapitating Strike to heal Axe for portion of the damage dealt"
+		"DOTA_Tooltip_ability_axe_decapitating_strike_damage_perc_as_heal"		"%DAMAGE DEALT AS HEAL:"
+	
+		"DOTA_Tooltip_ability_axe_red_mist_armor"		"Red Mist Armor"
+		"DOTA_Tooltip_ability_axe_red_mist_armor_description"		"Axe gains bonus armor for each nearby enemy hero, reflecting a portion of physical damage back to attackers."
+		"DOTA_Tooltip_ability_axe_red_mist_armor_return_damage_perc"		"%DAMAGE REFLECTED:"
+		"DOTA_Tooltip_ability_axe_red_mist_armor_bonus_armor_per_hero"		"BONUS ARMOR PER HERO:"
+		"DOTA_Tooltip_ability_axe_red_mist_armor_effect_radius"		"RADIUS:"
+		"DOTA_Tooltip_modifier_axe_red_mist_armor"	"Red Mist Armor"
+		"DOTA_Tooltip_modifier_axe_red_mist_armor_Description"	"Axe gains %dMODIFIER_PROPERTY_TOOLTIP% bonus armor, because of nearby enemies"
+
+		"DOTA_Tooltip_ability_axe_one_man_army"		"One-Man Army"
+		"DOTA_Tooltip_ability_axe_one_man_army_description"		"Axe channels his inner strength, gaining bonus damage and spell immunity for a short duration. The duration increases for each nearby enemy hero."
+		"DOTA_Tooltip_ability_axe_one_man_army_bonus_damage"		"BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_axe_one_man_army_base_duration"		"DURATION:"
+		"DOTA_Tooltip_ability_axe_one_man_army_duration_bonus_per_hero"		"BONUS DURATION PER HERO:"
+		"DOTA_Tooltip_ability_axe_one_man_army_search_radius"		"RADIUS:"
+		"DOTA_Tooltip_modifier_axe_one_man_army_buff"	"One-Man Army"
+		"DOTA_Tooltip_modifier_axe_one_man_army_buff_Description"	"This unit is Debuff Immune and gains %dMODIFIER_PROPERTY_TOOLTIP% bonus damage"
+
+		"DOTA_Tooltip_ability_axe_generals_command"		"General's Command"
+		"DOTA_Tooltip_ability_axe_generals_command_description"		"When activated, all nearby allied heroes gain a portion of Axe's bonus damage and armor for a short duration."
+		"DOTA_Tooltip_ability_axe_generals_command_bonus_damage_perc"		"%BONUS DAMAGE SHARED:"
+		"DOTA_Tooltip_ability_axe_generals_command_bonus_armor_perc"		"%BONUS ARMOR SHARED:"
+		"DOTA_Tooltip_ability_axe_generals_command_duration"		"DURATION:"
+		"DOTA_Tooltip_ability_axe_generals_command_effect_radius"		"RADIUS:"
+		"DOTA_Tooltip_modifier_axe_generals_command_aura"			"General's Command"
+		"DOTA_Tooltip_modifier_axe_generals_command_aura_Description"			"Axe inspiers allies around him, granting them portion of his bonus armor and damage"
+		"DOTA_Tooltip_modifier_axe_generals_command_buff"			"General's Command Inspiration"
+		"DOTA_Tooltip_modifier_axe_generals_command_buff_Description"			"This unit is inspired by General's Command, gaining %dMODIFIER_PROPERTY_TOOLTIP% bonus damage and %dMODIFIER_PROPERTY_TOOLTIP2% bonus armor"
+
 	}
 }
