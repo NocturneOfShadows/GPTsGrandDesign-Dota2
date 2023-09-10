@@ -1,3 +1,5 @@
+#base "heroes/antimage.txt"
+
 "DOTAAbilities"
 {
 }

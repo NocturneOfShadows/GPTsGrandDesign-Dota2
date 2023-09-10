@@ -8,6 +8,46 @@
         "DOTA_GameMode_15"							"Dota 2: GPT's Grand Design"
 		"DOTA_GameMode_19"							"Dota 2: GPT's Grand Design"
 
+
+		// Heroes
+
+		// Antimage
+		"DOTA_Tooltip_ability_antimage_arcane_slash"							"Arcane Slash"
+		"DOTA_Tooltip_ability_antimage_arcane_slash_Description"				"Anti-Mage infuses his blade with arcane energy, slashing at an enemy and dealing bonus damage based on their missing mana."
+		"DOTA_Tooltip_ability_antimage_arcane_slash_Lore"						"Harnessing the arcane, Anti-Mage's blade strikes deeper into foes drained of their mystical energies."
+		"DOTA_Tooltip_ability_antimage_arcane_slash_base_damage"				"BASE DAMAGE:"
+		"DOTA_Tooltip_ability_antimage_arcane_slash_missing_mana_damage"		"DAMAGE PER MISSING MANA:"
+
+		"DOTA_Tooltip_ability_antimage_ethereal_step"							"Ethereal Step"
+		"DOTA_Tooltip_ability_antimage_ethereal_step_Description"				"Anti-Mage dashes to a location, becoming ethereal during the dash. If he passes through an enemy hero, he burns a portion of their mana and deals damage."
+		"DOTA_Tooltip_ability_antimage_ethereal_step_shard_description"			"Causes Ethereal Step to slow enemies passed through by %shard_slow%% for %shard_duration% seconds."
+		"DOTA_Tooltip_ability_antimage_ethereal_step_Lore"						"Drawing from the ethereal plane, Anti-Mage blurs between realms, sapping the mana of those he encounters."
+		"DOTA_Tooltip_ability_antimage_ethereal_step_damage"					"DAMAGE:"
+		"DOTA_Tooltip_ability_antimage_ethereal_step_mana_burned"				"MANA BURNED:"
+		"DOTA_Tooltip_ability_antimage_ethereal_step_effect_radius"				"RADIUS:"
+
+		"DOTA_Tooltip_ability_antimage_mana_flux"								"Mana Flux"
+		"DOTA_Tooltip_ability_antimage_mana_flux_Description"					"Every few seconds, Anti-Mage's attacks create a burst of energy that damages and silences enemies in a radius."
+		"DOTA_Tooltip_ability_antimage_mana_flux_Lore"							"Echoes of Turstarkuri teachings allow Anti-Mage to disrupt the very flow of magic around him, silencing those who dare come close."
+		"DOTA_Tooltip_ability_antimage_mana_flux_damage"						"DAMAGE:"
+		"DOTA_Tooltip_ability_antimage_mana_flux_radius"						"RADIUS:"
+		"DOTA_Tooltip_ability_antimage_mana_flux_duration"						"DURATION:"
+
+		"DOTA_Tooltip_ability_antimage_void_resonance"							"Void Resonance"
+		"DOTA_Tooltip_ability_antimage_void_resonance_Description"				"Anti-Mage taps into the void, creating an area where magic is suppressed. Enemies in this area take damage over time and have reduced spell effectiveness."
+		"DOTA_Tooltip_ability_antimage_void_resonance_scepter_description"		"Void Resonance mutes items of enemies within its area."
+		"DOTA_Tooltip_ability_antimage_void_resonance_Lore"						"Channeling the void's emptiness, Anti-Mage creates a zone where magic is not just weakened, but actively punished."
+		"DOTA_Tooltip_ability_antimage_void_resonance_damage_per_second"		"DAMAGE PER SECOND:"
+		"DOTA_Tooltip_ability_antimage_void_resonance_mana_drain_per_second"	"MANA DRAIN PER SECOND:"
+		"DOTA_Tooltip_ability_antimage_void_resonance_spell_effect_reduction"	"%SPELL EFFECT REDUCTION:"
+		"DOTA_Tooltip_ability_antimage_void_resonance_duration"					"DURATION:"
+		"DOTA_Tooltip_ability_antimage_void_resonance_radius"					"RADIUS:"
+
+		
+
+
+
+		// Demo 
 		"Refresh_Msg"								"Hero Refreshed"
 		"LevelUp_Msg"								"Hero Levelled Up"
 		"MaxLevel_Msg"								"Hero Maxed Out"
