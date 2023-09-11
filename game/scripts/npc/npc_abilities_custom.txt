@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 #base "heroes/axe.txt"
+=======
+#base "heroes/antimage.txt"
+
+"DOTAAbilities"
+{
+}
+>>>>>>> c68beb138094f59e6a6687b18c2c2b21ab88a95b

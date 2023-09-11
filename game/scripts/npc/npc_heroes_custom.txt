@@ -15,6 +15,45 @@
     }
 
     //=================================================================================================================
+    // HERO: Antimage
+    //=================================================================================================================
+    "npc_dota_hero_antimage"
+    {
+        "Ability1"		"antimage_arcane_slash"
+		"Ability2"		"antimage_ethereal_step"
+		"Ability3"		"antimage_mana_flux"
+		"Ability4"		"generic_hidden"
+		"Ability5"		"generic_hidden"
+		"Ability6"		"antimage_void_resonance"
+        "Ability7"      ""
+        "Ability8"      ""
+        "Ability9"      ""
+
+		// Movement
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementSpeed"			"310"
+
+		// Armor
+		//-------------------------------------------------------------------------------------------------------------
+		"ArmorPhysical"			"2"
+
+        // Attack
+        //-------------------------------------------------------------------------------------------------------------
+        "AttackDamageMin"		"29"
+		"AttackDamageMax"		"33"
+
+        // Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"22"
+		"AttributeStrengthGain"		    "1.8"
+		"AttributeBaseIntelligence"		"12"
+		"AttributeIntelligenceGain"		"1.4"
+		"AttributeBaseAgility"		    "24"
+		"AttributeAgilityGain"		    "3.2"
+    }
+
+    //=================================================================================================================
     // HERO: Anchient Apparition
     //=================================================================================================================
     "npc_dota_hero_ancient_apparition"
@@ -26,5 +65,5 @@
         "Ability5"                  "generic_hidden"
         // "Ability6"                  "axe_one_man_army"
         // "Ability10"                 "special_bonus_unique_abaddon_XX"
-    }
+
 }

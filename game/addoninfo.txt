@@ -1,21 +1,12 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	HideInTools = false
-	IsPlayable = true
-	IsTemplate = false
-	maps = "dota"
-	CheckAFKPlayers = true
-	DefaultMap = "dota"
-	Default_Keys = null
-	DisableIK = false
-	EnablePickRules = false
-	EventGame = false
-	hero_picker = null
-	HeroGuidesSupported = true
-	ForceDefaultGuide = true
-	MinimalPrecache = true
-	MinPlayers = 1
-	MaxPlayers = 10
+	TeamCount = 2
+	maps = 
+	[
+		"dota",
+	]
+	IsPlayable = 1
+	HeroGuidesSupported = 1
 	map_options = 
 	[
 		{
@@ -23,6 +14,15 @@
 			map = "dota"
 		},
 	]
+	HideInTools = false
+	IsTemplate = false
+	CheckAFKPlayers = true
+	DefaultMap = "dota"
+	Default_Keys = [  ]
+	DisableIK = false
+	ForceDefaultGuide = true
+	MinimalPrecache = true
+	MinPlayers = 1
+	MaxPlayers = 10
 	PenaltiesEnabled = false
-	TeamCount = -1
 }

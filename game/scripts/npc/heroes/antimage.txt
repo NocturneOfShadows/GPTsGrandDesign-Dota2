@@ -1,0 +1,190 @@
+"DOTAAbilities"
+{
+    //=================================================================================================================
+	// Antimage: Arcane Slash
+	//=================================================================================================================
+	"antimage_arcane_slash"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"                    "abilities/heroes/antimage/antimage_arcane_slash"
+		"AbilityTextureName"			"antimage_mana_break"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"50 60 70 80"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"AbilityCooldown"
+			{
+				"value"									"8"
+				"special_bonus_unique_antimage_gpt1"	"-2"
+			}
+			"base_damage"
+			{
+				"value"									"40 60 80 100"
+				"special_bonus_unique_antimage_gpt2"	"x1.15"
+			}
+			"missing_mana_damage"
+			{
+				"value"									"0.25 0.30 0.35 0.40"
+				"special_bonus_unique_antimage_gpt2"	"x1.15"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Antimage: Ethereal Step
+	//=================================================================================================================
+	"antimage_ethereal_step"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"                    "abilities/heroes/antimage/antimage_ethereal_step"
+		"AbilityTextureName"			"antimage_blink"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_OVERSHOOT"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"HasShardUpgrade"				"1"
+
+		// Time
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.2"
+		"AbilityCooldown"				"15"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"90 100 110 120"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"
+			{
+				"value"							"80 120 160 200"
+				"CalculateSpellDamageTooltip"	"1"
+			}
+			"mana_burned"			"100 150 200 250"
+			"speed"					"1200"
+			"effect_radius"			"150"
+			"AbilityCastRange"
+			{
+				"value"									"600 700 800 900"
+				"special_bonus_unique_antimage_gpt3"	"+100"
+			}
+			"shard_slow"
+			{
+				"value"					"0"
+				"special_bonus_shard"	"+30"
+				"RequiresShard"			"1"
+			}
+			"shard_duration"
+			{
+				"value"					"0"
+				"special_bonus_shard"	"+2"
+				"RequiresShard"			"1"
+			}
+		}
+	}
+
+	//=================================================================================================================
+	// Antimage: Mana Flux
+	//=================================================================================================================
+	"antimage_mana_flux"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"                    "abilities/heroes/antimage/antimage_mana_flux"
+		"AbilityTextureName"			"antimage_counterspell"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AUTOCAST"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		// Time
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"12 10 8 6"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage"
+			{
+				"value"									"50 80 110 140"
+				"special_bonus_unique_antimage_gpt4"	"x2"
+			}
+			"radius"						"300"
+			"duration"						"1.0 1.5 2.0 2.5"
+		}
+	}
+
+	//=================================================================================================================
+	// Antimage: Void Resonance
+	//=================================================================================================================
+	"antimage_void_resonance"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"                    "abilities/heroes/antimage/antimage_void_resonance"
+		"AbilityTextureName"			"antimage_mana_void"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		"HasScepterUpgrade"				"1"
+
+		// Time
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"100 90 80"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"200 250 300"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityValues"
+		{
+			"damage_per_second"			"50 75 100"
+			"spell_effect_reduction"	"30 40 50"
+			"duration"					"5 6 7"
+			"radius"					"600"
+			"mana_drain_per_second"
+			{
+				"value"									"0"
+				"special_bonus_unique_antimage_gpt5"	"+50"
+			}
+			"mutes_items"
+			{
+				"value"						"0"
+				"special_bonus_scepter"		"+1"
+			}
+		}
+	}
+}
