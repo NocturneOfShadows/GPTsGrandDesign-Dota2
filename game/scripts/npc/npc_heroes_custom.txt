@@ -13,4 +13,18 @@
         "Ability6"                  "axe_one_man_army"
         // "Ability10"                 "special_bonus_unique_abaddon_XX"
     }
+
+    //=================================================================================================================
+    // HERO: Anchient Apparition
+    //=================================================================================================================
+    "npc_dota_hero_ancient_apparition"
+    {
+        "Ability1"                  "axe_lone_warriors_charge"
+        // "Ability2"                  "axe_decapitating_strike"
+        // "Ability3"                  "axe_red_mist_armor"
+        "Ability4"                  "generic_hidden"
+        "Ability5"                  "generic_hidden"
+        // "Ability6"                  "axe_one_man_army"
+        // "Ability10"                 "special_bonus_unique_abaddon_XX"
+    }
 }
